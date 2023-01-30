@@ -1,0 +1,13 @@
+//
+//  ConfigDev.xcconfig
+//  CombineDemo
+//
+//  Created by Ahmad Ashraf Khattab on 24/01/2023.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+// https://api.themoviedb.org/3/movie/popular?api_key=39124f42fcda5e6e4e22a9d602876810
+// https://image.tmdb.org/t/p/w200/tGwO4xcBjhXC0p5qlkw37TrH6S6.jpg
+SERVER_URL = api.themoviedb.org
+MOVIE_POSTER_URL = image.tmdb.org
