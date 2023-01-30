@@ -1,0 +1,51 @@
+# CocoaPods
+#
+# We recommend against adding the Pods directory to your .gitignore. However
+# you should judge for yourself, the pros and cons are mentioned at:
+# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
+#
+#Pods/
+## Build generated
+#build/
+MVA-iOS/DerivedData/
+DerivedData/
+
+
+## Various settings
+MVA-iOS/*.pbxuser
+!default.pbxuser
+MVA-iOS/*.mode1v3
+!default.mode1v3
+MVA-iOS/*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+## Other
+MVA-iOS/*.moved-aside
+MVA-iOS/*.xccheckout
+MVA-iOS/*.xcscmblueprint
+
+## Obj-C/Swift specific
+MVA-iOS/*.hmap
+MVA-iOS/*.ipa
+MVA-iOS/*.dSYM.zip
+MVA-iOS/*.dSYM
+MVA-iOS/\.DS_Store
+
+
+docs/
+
+## sonarQube
+MVA-iOS/.scannerwork/
+MVA-iOS/sonar-reports/
+MVA-iOS/compile_commands.json
+MVA-iOS/VFUK-iOS.xcodeproj/project.pbxproj.orig
+.DS_Store
+fastlane/swiftlint.result.json
+fastlane/test_output/
+fastlane/report.xml
+*.zip
+*.ipa
+MVA-iOS/VFUK-iOS.xcodeproj/project.pbxproj.orig
